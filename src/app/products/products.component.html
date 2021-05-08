@@ -1,11 +1,11 @@
-<div class="text-center bg-dark text-white">
-    <h5 class="">no of product: {{productCount}}</h5>
-    <p  *ngFor="let title of  productsSentByChild">Added: {{title}}</p>
+<!-- to display number of products added to the cart -->
+<div class="text-center prodUpdate p-3" style=" background-color:#fae6e6">
+    <h5 class="" style="font-family: 'Amatic SC', cursive; font-size: 24px; font-weight: bold;">No. of products added in the cart: {{productCount}}</h5>
+    <p  *ngFor="let title of  productsSentByChild" style="font-family: 'Amatic SC', cursive;font-size: 24px; font-weight: bold;">Added: {{title}}</p>
 </div>
-
-
-
+<!-- to display the cards -->
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 mt-5 mb-5">
+    <!-- iterating using ngFor loop -->
 <div class="col" *ngFor="let prObj of products">
     <app-product-details [productObj]=prObj (myEvent)="getProductDetailsFromChild($event)"></app-product-details>
 </div>

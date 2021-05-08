@@ -1,0 +1,29 @@
+img{
+    border-style: groove;
+    border-radius: 5px;
+    box-shadow:  black;
+    
+    
+}
+.btn1{
+    background-color: bisque;
+    padding: 5px;
+    margin: 5px;
+   
+    font-weight: bolder;
+    font-family: 'Girassol', cursive;
+    font-size: 15px;
+}
+.desc{
+    background-color: 	#fafae6;
+    padding: 0px 0px;
+}
+.icon{
+    padding: 2px;
+}
+.prtitle{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
