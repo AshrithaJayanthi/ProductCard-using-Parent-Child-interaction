@@ -23,25 +23,25 @@ export class ProductsComponent  {
     },
     
     {
-    productTitle:"Coco Mademoiselle Intense Spray",
-    description:"85$",
-    productImage:"https://www.chanel.com/images//t_one//w_0.51,h_0.51,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/coco-mademoiselle-eau-de-parfum-intense-spray-1-2fl-oz--packshot-default-116630-8817976377374.jpg"
+    productTitle:"Square Sunglasses",
+    description:"385$",
+    productImage:"https://www.chanel.com/images//t_one/t_fashion//q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/square-sunglasses-white-acetate-acetate-packshot-default-a71414x08101s1692-8837625577502.jpg"
     },
     
     {
-    productTitle:"Chance Parfum Spray",
-    description:"85$",
-    productImage:"https://www.chanel.com/images//t_one//w_0.51,h_0.51,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/chance-eau-tendre-eau-de-parfum-spray-1-2fl-oz--packshot-default-126240-8820439121950.jpg"
+    productTitle:"Round Sunglasses",
+    description:"360$",
+    productImage:"https://www.chanel.com/images//t_one/t_fashion//q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/round-sunglasses-black-acetate-metal-acetate-metal-packshot-default-a71397x06081s8816-8837386731550.jpg"
     },
     {
-      productTitle:"Chance Toilette Spray",
-      description:"82$",
-      productImage:"https://www.chanel.com/images//t_one//w_0.51,h_0.51,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/chance-eau-fraiche-eau-de-toilette-spray-1-7fl-oz--packshot-default-136410-8833882095646.jpg"
+      productTitle:"j12 diamond bezel watch",
+      description:"12,000$",
+      productImage:"https://www.chanel.com/images//t_one///q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_1240/j12-diamond-bezel-watch-caliber-12-1-38-mm-black-black-ceramic-steel-diamond-packshot-default-h6526-8839831584798.jpg"
       },
       {
-        productTitle:"Chance Eau de Parfum Spray",
-        description:"108$",
-        productImage:"https://www.chanel.com/images//t_one//w_0.55,h_0.55,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/chance-eau-de-toilette-spray-3-4fl-oz--packshot-default-126460-8833883176990.jpg"
+        productTitle:"mademoiselle privé",
+        description:"141,000$",
+        productImage:"https://www.chanel.com/images//t_one///q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/mademoiselle-prive-watch-black-silver-satin-diamond-white-gold-packshot-default-h5428-8828208545822.jpg"
         },
 
   ];

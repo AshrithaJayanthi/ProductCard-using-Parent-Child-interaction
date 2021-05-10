@@ -1,3 +1,10 @@
 .active{
     font-weight:bolder ;
 }
+.navbar{
+    background-color: #e3ebf2 !important
+}
+p{
+    font-size: 20px;
+    font-weight: bolder;
+}

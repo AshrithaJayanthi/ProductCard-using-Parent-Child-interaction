@@ -13,7 +13,8 @@ const routes: Routes = [
   {path:'login',component:LoginComponent},
   {path:'products',component:ProductsComponent},
   {path:'contactus',component:ContactusComponent},
-  {path:'',redirectTo:'./login',pathMatch:'full'}
+  //setting default page as HOME PAGE
+  { path:'', redirectTo:'/home',pathMatch:'full'}
 ];
 
 @NgModule({

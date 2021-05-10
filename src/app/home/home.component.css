@@ -1,0 +1,26 @@
+button{
+ border-radius: 6px;
+ font-size: 20px;
+ font-weight: bolder;
+}
+h3{
+    font-family: 'Saira', sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+    text-shadow: 2px 2px 6px lightsalmon;
+}
+.frag{
+    color: #c38080;
+    font-family: 'Saira', sans-serif;
+    /* font-family: 'Tangerine', cursive; */
+    font-weight: bolder;
+    font-size: 60px;
+    text-shadow: 2px 2px 6px lightsalmon;
+}
+.hme{
+    margin: 0px;
+    padding: 0px;
+    background-color: 
+    #d0e6f9;
+    width: 100%;
+}
