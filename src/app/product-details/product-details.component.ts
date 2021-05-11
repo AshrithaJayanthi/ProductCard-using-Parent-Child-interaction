@@ -1,4 +1,5 @@
 import { Component, Input , EventEmitter, Output } from '@angular/core';
+import { Fragrance } from '../models/fragrance.model';
 import { Product } from '../models/product.model';
 
 @Component({
@@ -8,7 +9,7 @@ import { Product } from '../models/product.model';
 })
 export class ProductDetailsComponent  {
   //to recieve data from parent as input
- @Input() productObj:Product
+ @Input() productObj:Fragrance
  //creating a custom event
  @Output() myEvent=new EventEmitter()
  sendProductDetailsToParent(productTitle)

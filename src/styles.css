@@ -6,4 +6,9 @@
 }*/
 body{
     background-color: #d1dee9;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+html,app-root,body{
+    height: 100%;
 }

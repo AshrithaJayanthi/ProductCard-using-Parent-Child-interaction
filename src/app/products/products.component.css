@@ -1,0 +1,9 @@
+li{
+    background-color:aliceblue;
+}
+a:focus{
+    background-color: bisque;
+}
+active{
+    background-color: palevioletred;
+}

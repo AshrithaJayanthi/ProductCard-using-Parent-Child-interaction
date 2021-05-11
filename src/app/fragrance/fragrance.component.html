@@ -1,0 +1,8 @@
+
+<!-- to display the cards -->
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 mt-5 mb-5">
+    <!-- iterating using ngFor loop -->
+<div class="col" *ngFor="let fragObj of fragrances">
+    <app-product-details [productObj]=fragObj (myEvent)="getProductDetailsFromChild($event)"></app-product-details>
+</div>
+</div>
