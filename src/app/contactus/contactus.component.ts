@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {DataService} from '../data.service'
 @Component({
   selector: 'app-contactus',
   templateUrl: './contactus.component.html',
@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactusComponent implements OnInit {
 
-  constructor() { }
+  constructor(private dsObj:DataService) { }
 
   ngOnInit(): void {
+    console.log(this.dsObj.getFragranceData)
   }
 
 }

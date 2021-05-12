@@ -6,6 +6,7 @@ a:focus{
 }
 active{
     background-color: palevioletred;
+    font-weight: bolder;
 }
 button:focus{
     font-weight: bolder;
@@ -26,4 +27,7 @@ h5{
     font-family: 'Tangerine', cursive;
     font-size: 30px;
     font-weight: bolder;
+}
+.active.nav-link{
+
 }

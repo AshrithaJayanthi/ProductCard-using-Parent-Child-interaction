@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {TestingService} from '../testing.service'
 
 @Component({
   selector: 'app-home',
@@ -6,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
-  constructor() { }
+n:number=100
+  constructor(private tsObj:TestingService) { }
 
   ngOnInit(): void {
+    this.tsObj.setData(this.n)
   }
 
 }
