@@ -1,18 +1,52 @@
 <!-- pills -->
-<ul class="nav nav-pills justify-content-evenly mt-3">
-    <li class="nav-item">
-      <a class="nav-link" aria-current="page" routerLink="fragrance" routerLinkActive="active">Fragrance</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" routerLink="glasses" routerLinkActive="active">Sun Glasses</a>
-    </li>
-<li class="nav-item">
-      <a class="nav-link" routerLink="jewellery" routerLinkActive="active">Jewellery</a>
-    </li>
+<div class="container pt-2">
+  
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 mt-5 mb-5">
+  <div class="col">
+    <div class="card h-100 shadow " >
+      <img src="../assets/perfume.svg" class="card-img-top w-100" alt="..." style="height: 100px;">
     
-  </ul>
-
-  <div class="contai">
+      <div class="card-body">
+        <div class="desc">
+        <h5 class="card-title text-center prtitle" >Fragrance</h5>
+      
+        <p class="card-text text-center"></p>
+        <button routerLink="fragrance" routerLinkActive="active" class="btn btn-sm d-block mx-auto btn1">Click Me</button>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 shadow " >
+      <img src="../assets/sunglasses.svg" class="card-img-top w-100" alt="..." style="height: 100px;">
+    
+      <div class="card-body">
+        <div class="desc">
+        <h5 class="card-title text-center prtitle" >SunGlasses</h5>
+      
+        <p class="card-text text-center"></p>
+        <button routerLink="glasses" routerLinkActive="active" class="btn btn-sm d-block mx-auto btn1">Click Me</button>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 shadow " >
+      <img src="../assets/necklace.svg" class="card-img-top w-100" alt="..." style="height: 100px;">
+    
+      <div class="card-body">
+        <div class="desc">
+        <h5 class="card-title text-center prtitle" >Jewellery</h5>
+      
+        <p class="card-text text-center"></p>
+        <button routerLink="jewellery" routerLinkActive="active" class="btn btn-sm d-block mx-auto btn1">Click Me</button>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  <div class="container">
       <router-outlet>
           </router-outlet>
   </div>

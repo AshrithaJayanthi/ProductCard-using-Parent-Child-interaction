@@ -19,7 +19,7 @@ const routes: Routes = [
 [{path:"fragrance",component:FragranceComponent},
 {path:"glasses",component:GlassesComponent},
 {path:"jewellery",component:JewelleryComponent},
-{path:'',redirectTo:'/products/fragrance',pathMatch:"full"}
+// {path:'',redirectTo:'/products/fragrance',pathMatch:"full"}
 
 
 ]},

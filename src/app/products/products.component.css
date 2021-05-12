@@ -7,3 +7,23 @@ a:focus{
 active{
     background-color: palevioletred;
 }
+button:focus{
+    font-weight: bolder;
+}
+.card{
+    background-color: 
+    #e6f3f7 !important;
+}
+.desc{
+    background-color: #eef7fa;
+}
+button{
+    background-color: #bddfeb;
+    border-radius: 3px;
+    border: 1px solid pink;
+}
+h5{
+    font-family: 'Tangerine', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+}
