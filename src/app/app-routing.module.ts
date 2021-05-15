@@ -24,9 +24,10 @@ const routes: Routes = [
 
 ]},
   {path:'contactus',component:ContactusComponent},
-  {path:'**',component:PagenotfoundComponent},
+   
   //setting default page as HOME PAGE
-  { path:'', redirectTo:'/home',pathMatch:'full'}
+  { path:'', redirectTo:'/home',pathMatch:'full'},
+  {path:'**',component:PagenotfoundComponent},
 ];
 
 @NgModule({

@@ -16,7 +16,15 @@ export class FragranceComponent implements OnInit {
 //dsObj calls the method and return data of the method is stored in fragrances[]
   ngOnInit(){
     //obj initialization logic
-   this.fragrances= this.dsObj.getFragranceData();
+   //this.fragrances= this.dsObj.getFragranceData();
+   this.dsObj.getFragranceData().subscribe(
+     data=>{
+       this.fragrances=data
+     },
+    err=>{
+      console.log("err is",err)
+    }
+    )
   }
   
   }

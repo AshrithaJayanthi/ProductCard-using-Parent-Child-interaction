@@ -8,14 +8,7 @@ import {DataTwoService} from '../data-two.service'
   styleUrls: ['./glasses.component.css']
 })
 export class GlassesComponent implements OnInit  {
-//   num:any;
-// constructor(private testObj:TestingService){
 
-// }
-// ngOnInit():void{
-//   this.num=this.testObj.getData();
-// }
-//to store return data type
 glasses:Glasses[]=[];
 
 //injecting object of service into constructor
@@ -29,3 +22,11 @@ this.glasses=this.dsObj.getGlassesData();
    }
 
 }
+//   num:any;
+// constructor(private testObj:TestingService){
+
+// }
+// ngOnInit():void{
+//   this.num=this.testObj.getData();
+// }
+//to store return data type
