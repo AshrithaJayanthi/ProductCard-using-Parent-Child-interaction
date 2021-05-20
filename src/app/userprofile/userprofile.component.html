@@ -1,0 +1,19 @@
+<table class="table text-center p-3 m-3">
+    <thead>
+        <th>ID</th>
+        <th>Email </th>
+    </thead>
+    <tbody *ngFor="let userObj of usersDetails">
+        <tr>
+            <td>
+               <button class="btn btn-sm" (click)="onSelectId(userObj.id)">
+                {{userObj.id}}
+               </button>
+            </td>
+            <td>
+                {{userObj.email}}
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h3>Click on the ID button to check the user's profile!</h3>

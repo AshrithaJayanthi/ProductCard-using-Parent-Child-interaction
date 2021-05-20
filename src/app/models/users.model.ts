@@ -1,0 +1,10 @@
+export interface Users{
+    
+    
+        usid:number,
+        name:string,
+        year:number,
+        color:string,
+        pantone_value:number,
+         data:[]
+}

@@ -16,7 +16,7 @@ export class DataService {
    
     //http get
     //returns product array
-    return this.hc.get<Fragrance[]>("assets/fragrances.json")
+    return this.hc.get<Fragrance[]>("http://localhost:3000/fragrances")
   }
 
   

@@ -1,0 +1,18 @@
+<div class="background">
+<!-- displaying info in cards -->
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 mt-5 mb-5">
+    <div class="col" *ngFor="let users of usersData.data">
+<div class="card" style="width: 18rem; background-color: 	#e1e1e1; margin-left: 35px; font-family: 'Saira', sans-serif;">
+    <div class="card-body">
+      <h5 class="card-title">Name: {{users.name}}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">ID: {{users.id}}</h6>
+      <p class="card-text" >Color code: {{users.color}}</p>
+      <p class="card-text" >Year:{{users.year}}</p>
+      <p class="card-text" >Pantone Value: {{users.pantone_value}}</p>
+      
+      
+    </div>
+  </div>
+</div>
+</div> 
+</div>

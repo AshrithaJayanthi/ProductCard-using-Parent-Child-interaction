@@ -14,6 +14,12 @@ import { FragranceComponent } from './fragrance/fragrance.component';
 import { GlassesComponent } from './glasses/glasses.component';
 import { JewelleryComponent } from './jewellery/jewellery.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { TestComponent } from './test/test.component';
+import { TestusersComponent } from './testusers/testusers.component';
+import { TestuserstwoComponent } from './testuserstwo/testuserstwo.component';
+import { UserdetailsComponent } from './userdetails/userdetails.component';
+import { UserprofileComponent } from './userprofile/userprofile.component';
+import { UserprofiledetailsComponent } from './userprofiledetails/userprofiledetails.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +34,13 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     FragranceComponent,
     GlassesComponent,
     JewelleryComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    TestComponent,
+    TestusersComponent,
+    TestuserstwoComponent,
+    UserdetailsComponent,
+    UserprofileComponent,
+    UserprofiledetailsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,65 @@
+
+
+<table class="table text-center">
+<thead>
+    <tr>
+       
+        <th>ID</th>
+        <!-- <th>UserId</th>
+        <th>Title</th>
+        <th>Body</th> -->
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let postObj of myPosts" >
+       
+        
+        <td>
+            <button class="btn btn-sm btn-warning" (click)="onSelectId(postObj.id)">{{postObj.id}}</button>
+        </td>
+        <!-- <td>
+            {{postObj.userId}}
+        </td>
+        <td>
+            {{postObj.title}}
+        </td>
+        <td>
+            {{postObj.body}}
+        </td> -->
+    </tr>
+    
+</tbody>
+</table> 
+<!-- <table class="table text-center">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>UserId</th> 
+            
+            <th>Title</th>
+            <th>Body</th> 
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let postObj of myPosts" >
+            <tr *ngFor="let postObj of myPosts" >
+                <td>
+                   <button class="btn btn-sm btn-warning" (click)="onSelectId(postObj.id)"> {{postObj.id}}</button>
+                </td>
+            
+           <td>
+                {{postObj.userId}}
+            </td>
+
+           
+            <td>
+                {{postObj.email}}
+            </td>
+            <td> 
+                <!-- <img src="{{postObj.avatar}}" alt=""> 
+                
+             </td> 
+        </tr>
+        
+    </tbody>
+    </table> -->
