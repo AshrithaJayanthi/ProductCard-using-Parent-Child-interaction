@@ -1,0 +1,26 @@
+<div class="row mt-5">
+<div class="col-sm-2 col-md-3">
+
+</div>
+<div class="col-sm-8 col-md-6">
+    <form (ngSubmit)="onSubmitNewFragrance()">
+        <div class="form-floating mb-3">
+            <input type="text" name="productTitle" class="form-control" id="pt" placeholder="name@example.com" [(ngModel)]="fragranceModel.productTitle">
+            <label for="pt">Perfume name</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" name="productImage" placeholder="image" class="form-control" id="pi" [(ngModel)]="fragranceModel.productImage">
+            <label for="pi">Image Url</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" name="description" class="form-control" placeholder="perfume price" id="fd" [(ngModel)]="fragranceModel.description">
+            <label for="fd">Description</label>
+
+        </div>
+        <div>
+            <button type="submit" class="btn btn-warning float-end">Add</button>
+        </div>
+    </form>
+</div>
+<div class="col-sm-2 col-md-3"></div>
+</div>

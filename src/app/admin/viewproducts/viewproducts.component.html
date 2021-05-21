@@ -1,0 +1,118 @@
+
+<div class="table-content">
+    <form #ref="ngForm" (ngSubmit)="saveFragrance(ref.value)">
+        <table class="table text-center text-dark">
+            <thead>
+                <th>Brand</th>
+                <th>Description</th>
+                <th>Image</th>
+            </thead>
+            <tbody>
+                <tr *ngFor="let frag of fragrances;let ind=index">
+
+                    <!-- product title -->
+                    <td>
+                        <span *ngIf="!editFragranceStatus || editFragranceIndex!==ind">
+                            {{frag.productTitle}}
+                        </span>
+
+                        <input type="text" name="productTitle"  [(ngModel)]="editFragranceObj.productTitle"
+                        *ngIf="editFragranceStatus && editFragranceIndex==ind">
+
+                    </td>
+                    <!-- product description -->
+                    <td>
+                        <span *ngIf="!editFragranceStatus || editFragranceIndex!==ind">
+                            {{frag.description}}
+                        </span>
+
+                        <input type="text" name="description"  [(ngModel)]="editFragranceObj.description"
+                        *ngIf="editFragranceStatus && editFragranceIndex==ind"
+
+                            >
+
+                    </td>
+                    <td>
+                        <img src={{frag.productImage}} alt="" width="100px">
+                    </td>
+                    <!-- edit  and delete -->
+                    <td>
+                        <span *ngIf="!editFragranceStatus || editFragranceIndex!==ind">
+                            <button class="btn btn-danger btn-sm p-1 m-1" (click)="editFragrance(frag,ind)"><i
+                                    class="fas fa-edit text-warning"></i></button>
+                            <button class="btn btn-warning btn-sm p-1 m-1"><i
+                                    class="fas fa-trash-alt text-danger" (click)="deleteFragrance(frag)"></i></button>
+                        </span>
+
+                        <span   *ngIf="editFragranceStatus && editFragranceIndex==ind">
+                            <button class="btn btn-sm btn-success" type="submit"><i
+                                    class="fas fa-save text-white"></i></button>
+                        </span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</div>
+
+<!-- 
+<div class="table-content">
+
+    <form #ref="ngForm" (ngSumbit)="saveFragrance(ref.value)">
+    <table class="table">
+        <thead>
+            <th>Product Title</th>
+            <th>Description</th>
+            <th>Image</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let frag of fragrances ; let ind=index">
+                
+                    <!-- to make only one to appear  
+                <td>
+                    <span *ngIf="!editFragranceStatus || editFragranceIndex!==ind">
+                    {{frag.productTitle}}
+                </span>
+                  <span >
+                    <input type="text" name="productTitle"  [(ngModel)]="editFragranceObj.productTitle"
+                     *ngIf="editFragranceStatus && editFragranceIndex==ind">
+                  </span>
+                  
+                </td> -->
+                <!-- product desc 
+                <td>
+                    <span *ngIf="!editFragranceStatus || editFragranceIndex!==ind">
+                    {{frag.description}}
+                </span>
+                  <span >
+                    <input type="text" name="description"  [(ngModel)]="editFragranceObj.description"
+                     *ngIf="editFragranceStatus && editFragranceIndex==ind">
+                  </span>
+                  
+                </td>
+                <td>
+                    <img src="{{frag.productImage}}" alt="" width="100px">
+                </td>
+                <td> -->
+                    <!-- <!-- edit and del  
+                    <span  *ngIf="!editFragranceStatus || editFragranceIndex!==ind">
+                        <button class="btn btn-sm p-1 m-1" (click)="editFragrance(frag,ind)">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                  
+                  
+                        <button class="btn btn-sm p-1 m-1" (click)="deleteFragrance(frag)">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    </span>
+                    <span *ngIf="editFragranceStatus && editFragranceIndex==ind">
+                       <button type="submit"><i class="fas fa-save"></i></button>
+                    </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </form>
+    </div> -->
+    
+    

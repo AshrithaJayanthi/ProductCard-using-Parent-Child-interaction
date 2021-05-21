@@ -7,26 +7,28 @@ import {DataService} from '../data.service';
   styleUrls: ['./fragrance.component.css']
 })
 export class FragranceComponent implements OnInit {
-  fragrances:Fragrance[]=[];
-//inject data service object
-  constructor(private dsObj:DataService){
+//   fragrances:Fragrance[]=[];
+// //inject data service object
+//   constructor(private dsObj:DataService){
 
-  }
+//   }
   
-//dsObj calls the method and return data of the method is stored in fragrances[]
-  ngOnInit(){
-    //obj initialization logic
-   //this.fragrances= this.dsObj.getFragranceData();
-   this.dsObj.getFragranceData().subscribe(
-     data=>{
-       this.fragrances=data
-     },
-    err=>{
-      console.log("err is",err)
-    }
-    )
-  }
-  
+// //dsObj calls the method and return data of the method is stored in fragrances[]
+//   ngOnInit(){
+//     //obj initialization logic
+//    //this.fragrances= this.dsObj.getFragranceData();
+//    this.dsObj.getFragranceData().subscribe(
+//      data=>{
+//        this.fragrances=data
+//      },
+//     err=>{
+//       console.log("err is",err)
+//     }
+//     )
+//   }
+ngOnInit(){
+
+}  
   }
 
 

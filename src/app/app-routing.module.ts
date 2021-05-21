@@ -1,6 +1,7 @@
 import { FunctionCall } from '@angular/compiler';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AddnewfragranceComponent } from './addnewfragrance/addnewfragrance.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { FragranceComponent } from './fragrance/fragrance.component';
 import { GlassesComponent } from './glasses/glasses.component';
@@ -16,12 +17,18 @@ import {TestuserstwoComponent} from './testuserstwo/testuserstwo.component'
 import { UserdetailsComponent } from './userdetails/userdetails.component';
 import { UserprofileComponent } from './userprofile/userprofile.component';
 import { UserprofiledetailsComponent } from './userprofiledetails/userprofiledetails.component';
+import { ViewfragranceComponent } from './viewfragrance/viewfragrance.component';
 const routes: Routes = [
   {path:'home',component:HomeComponent},
   {path:'register',component:RegisterComponent},
   {path:'login',component:LoginComponent},
   {path:'products',component:ProductsComponent,children:
-[{path:"fragrance",component:FragranceComponent},
+[{path:"fragrance",component:FragranceComponent,children:
+[
+  {path:'viewfragrance',component:ViewfragranceComponent},
+  {path:'addnewfragrance',component:AddnewfragranceComponent},
+  {path:'',redirectTo:'/products/fragrance/viewfragrance',pathMatch:"full"}
+]},
 {path:"glasses",component:GlassesComponent},
 {path:"jewellery",component:JewelleryComponent},
 // {path:'',redirectTo:'/products/fragrance',pathMatch:"full"}
@@ -37,6 +44,7 @@ const routes: Routes = [
    {path:'userprofile/:id',component:UserprofiledetailsComponent},
   //setting default page as HOME PAGE
   { path:'', redirectTo:'/home',pathMatch:'full'},
+  { path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) },
   {path:'**',component:PagenotfoundComponent},
 ];
 

@@ -1,168 +1,184 @@
 {
-    "fragrances" :[
-    {"id":1,
+  "fragrances": [
+    {
+      "id": 1,
       "productTitle": "Coco Mademoiselle Parfum Spray",
       "description": "84$",
       "productImage": "https://www.chanel.com/images/w_0.51,h_0.51,c_crop/f_auto,w_512,h_512/coco-mademoiselle-eau-de-parfum-spray-1-2fl-oz--packshot-default-116390-8824196956190.jpg"
     },
-    {"id":2,
+    {
+      "id": 2,
       "productTitle": "N°5 Eau de Parfum Spray",
       "description": "83$",
       "productImage": "https://www.chanel.com/images//t_one//w_0.51,h_0.51,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/n-5-eau-de-parfum-spray-1-2fl-oz--packshot-default-125230-8833876000798.jpg"
     },
-    {"id":3,
+    {
+      "id": 3,
       "productTitle": "Coco Mademoiselle Intense Spray",
       "description": "85$",
       "productImage": "https://www.chanel.com/images//t_one//w_0.51,h_0.51,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/coco-mademoiselle-eau-de-parfum-intense-spray-1-2fl-oz--packshot-default-116630-8817976377374.jpg"
     },
-    {"id":4,
+    {
+      "id": 4,
       "productTitle": "Chance Parfum Spray",
       "description": "85$",
       "productImage": "https://www.chanel.com/images//t_one//w_0.51,h_0.51,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/chance-eau-tendre-eau-de-parfum-spray-1-2fl-oz--packshot-default-126240-8820439121950.jpg"
     },
-    {"id":5,
+    {
+      "id": 5,
       "productTitle": "Chance Toilette Spray",
       "description": "82$",
       "productImage": "https://www.chanel.com/images//t_one//w_0.51,h_0.51,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/chance-eau-fraiche-eau-de-toilette-spray-1-7fl-oz--packshot-default-136410-8833882095646.jpg"
     },
-    {"id":6,
+    {
+      "id": 6,
       "productTitle": "Chance Eau de Parfum Spray",
       "description": "108$",
       "productImage": "https://www.chanel.com/images//t_one//w_0.55,h_0.55,c_crop/q_auto:good,f_jpg,fl_lossy,dpr_1.2/w_620/chance-eau-de-toilette-spray-3-4fl-oz--packshot-default-126460-8833883176990.jpg"
+    },
+    {
+      "productTitle": "victoria secret",
+      "description": " 500$",
+      "id": 7,
+      "productImage": "https://i.pinimg.com/564x/ca/8b/43/ca8b438ad5594dec1a1187ca9a7a9bf9.jpg"
+    },
+    {
+      "productTitle": "victoria",
+      "description": " 450$",
+      "productImage": "https://i.pinimg.com/564x/71/4c/29/714c2907d916843fac96a48980d5fc4b.jpg",
+      "id": 8
     }
   ],
-
-  "users":[
-      {
-        "id":1,
-        "email":"kylie@gmail.com",
-        "name":"Kylie Jenner",
-        "profilePic":"https://i.pinimg.com/564x/6b/22/c1/6b22c1c3b1239ad458e26cf7821fb2ff.jpg",
-        "address":{
-            "state": "Alabama",
-            "city": "Birmingham",
-            "zipcode": "7645"
-        },
-        "profession":"Entrepeneur",
-        "mobileno":"0987365712"
+  "users": [
+    {
+      "id": 1,
+      "email": "kylie@gmail.com",
+      "name": "Kylie Jenner",
+      "profilePic": "https://i.pinimg.com/564x/6b/22/c1/6b22c1c3b1239ad458e26cf7821fb2ff.jpg",
+      "address": {
+        "state": "Alabama",
+        "city": "Birmingham",
+        "zipcode": "7645"
       },
-      {
-        "id":2,
-        "email":"kendall@gmail.com",
-        "name":"Kendall Jenner",
-        "profilePic":"https://i.pinimg.com/564x/c2/94/a6/c294a6b84236fa3be8f6369994245348.jpg",
-        "address":{
-            "state": "Alaska",
-            "city": "Juneau",
-            "zipcode": "7645"
-        },
-        "profession":"Model",
-        "mobileno":"0976567543"
+      "profession": "Entrepeneur",
+      "mobileno": "0987365712"
+    },
+    {
+      "id": 2,
+      "email": "kendall@gmail.com",
+      "name": "Kendall Jenner",
+      "profilePic": "https://i.pinimg.com/564x/c2/94/a6/c294a6b84236fa3be8f6369994245348.jpg",
+      "address": {
+        "state": "Alaska",
+        "city": "Juneau",
+        "zipcode": "7645"
       },
-      {
-        "id":3,
-        "email":"kim@gmail.com",
-        "name":"Kim Kardashian",
-        "profilePic":"https://i.pinimg.com/564x/bf/0f/58/bf0f589b2a7013e0aba075bf7214d82e.jpg",
-        "address":{
-            "state": "Arizona",
-            "city": "Phoenix",
-            "zipcode": "7645"
-        },
-        "profession":"Entrepeneur",
-        "mobileno":"0976567545"
+      "profession": "Model",
+      "mobileno": "0976567543"
+    },
+    {
+      "id": 3,
+      "email": "kim@gmail.com",
+      "name": "Kim Kardashian",
+      "profilePic": "https://i.pinimg.com/564x/bf/0f/58/bf0f589b2a7013e0aba075bf7214d82e.jpg",
+      "address": {
+        "state": "Arizona",
+        "city": "Phoenix",
+        "zipcode": "7645"
       },
-      {
-        "id":4,
-        "email":"khloe@gmail.com",
-        "name":"Khloe Kardashian",
-        "profilePic":"https://i.pinimg.com/564x/8f/c5/62/8fc56269bf655303ceed8e8ee7ebe6b2.jpg",
-        "address":{
-            "state": "California",
-            "city": "Los Angeles",
-            "zipcode": "7645"
-        },
-        "profession":"Model",
-        "mobileno":"0976568543"
+      "profession": "Entrepeneur",
+      "mobileno": "0976567545"
+    },
+    {
+      "id": 4,
+      "email": "khloe@gmail.com",
+      "name": "Khloe Kardashian",
+      "profilePic": "https://i.pinimg.com/564x/8f/c5/62/8fc56269bf655303ceed8e8ee7ebe6b2.jpg",
+      "address": {
+        "state": "California",
+        "city": "Los Angeles",
+        "zipcode": "7645"
       },
-      {
-        "id":5,
-        "email":"kourtney@gmail.com",
-        "name":"Kourtney Kardashian",
-        "profilePic":"https://i.pinimg.com/564x/4b/8a/85/4b8a856b49abc2ff5873e43cda24b9d0.jpg",
-        "address":{
-            "state": "Colorado",
-            "city": "Denver",
-            "zipcode": "7645"
-        },
-        "profession":"TV Actress",
-        "mobileno":"0976566543"
+      "profession": "Model",
+      "mobileno": "0976568543"
+    },
+    {
+      "id": 5,
+      "email": "kourtney@gmail.com",
+      "name": "Kourtney Kardashian",
+      "profilePic": "https://i.pinimg.com/564x/4b/8a/85/4b8a856b49abc2ff5873e43cda24b9d0.jpg",
+      "address": {
+        "state": "Colorado",
+        "city": "Denver",
+        "zipcode": "7645"
       },
-      {
-        "id":6,
-        "email":"travis@gmail.com",
-        "name":"Travis scott",
-        "profilePic":"https://i.pinimg.com/564x/4b/83/45/4b8345b10397b9082848512370909b54.jpg",
-        "address":{
-            "state": "Florida",
-            "city": "Tallahassee",
-            "zipcode": "7645"
-        },
-        "profession":"Singer",
-        "mobileno":"0876567543"
+      "profession": "TV Actress",
+      "mobileno": "0976566543"
+    },
+    {
+      "id": 6,
+      "email": "travis@gmail.com",
+      "name": "Travis scott",
+      "profilePic": "https://i.pinimg.com/564x/4b/83/45/4b8345b10397b9082848512370909b54.jpg",
+      "address": {
+        "state": "Florida",
+        "city": "Tallahassee",
+        "zipcode": "7645"
       },
-      {
-        "id":7,
-        "email":"zayn@gmail.com",
-        "name":"Zayn Malik",
-        "profilePic":"https://i.pinimg.com/564x/77/bd/c4/77bdc4aa59fdd92dcd662b9ae494d39b.jpg",
-        "address":{
-            "state": "Georgia",
-            "city": "Atlanta",
-            "zipcode": "7645"
-        },
-        "profession":"Singer",
-        "mobileno":"0976567541"
+      "profession": "Singer",
+      "mobileno": "0876567543"
+    },
+    {
+      "id": 7,
+      "email": "zayn@gmail.com",
+      "name": "Zayn Malik",
+      "profilePic": "https://i.pinimg.com/564x/77/bd/c4/77bdc4aa59fdd92dcd662b9ae494d39b.jpg",
+      "address": {
+        "state": "Georgia",
+        "city": "Atlanta",
+        "zipcode": "7645"
       },
-      {
-        "id":8,
-        "email":"selena@gmail.com",
-        "name":"Selena Gomez",
-        "profilePic":"https://i.pinimg.com/564x/98/dd/1c/98dd1c7e2f06435a4d1b96224f8e8113.jpg",
-        "address":{
-            "state": "Hawaii",
-            "city": "Honolulu",
-            "zipcode": "7645"
-        },
-        "profession":"Singer",
-        "mobileno":"0976567543"
+      "profession": "Singer",
+      "mobileno": "0976567541"
+    },
+    {
+      "id": 8,
+      "email": "selena@gmail.com",
+      "name": "Selena Gomez",
+      "profilePic": "https://i.pinimg.com/564x/98/dd/1c/98dd1c7e2f06435a4d1b96224f8e8113.jpg",
+      "address": {
+        "state": "Hawaii",
+        "city": "Honolulu",
+        "zipcode": "7645"
       },
-      {
-        "id":9,
-        "email":"weeknd@gmail.com",
-        "name":"The Weeknd",
-        "profilePic":"https://i.pinimg.com/564x/28/be/d3/28bed3f3098820fbb4edb910978c95d2.jpg",
-        "address":{
-            "state": "Massachusetts",
-            "city": "Boston",
-            "zipcode": "7645"
-        },
-        "profession":"Singer",
-        "mobileno":"0976567543"
+      "profession": "Singer",
+      "mobileno": "0976567543"
+    },
+    {
+      "id": 9,
+      "email": "weeknd@gmail.com",
+      "name": "The Weeknd",
+      "profilePic": "https://i.pinimg.com/564x/28/be/d3/28bed3f3098820fbb4edb910978c95d2.jpg",
+      "address": {
+        "state": "Massachusetts",
+        "city": "Boston",
+        "zipcode": "7645"
       },
-      {
-        "id":10,
-        "email":"justin@gmail.com",
-        "name":"Justin Beiber",
-        "profilePic":"https://i.pinimg.com/564x/02/a9/90/02a990e49e3cecbd638e3856be7f7030.jpg",
-        "address":{
-            "state": "Michigan",
-            "city": "Detroit",
-            "zipcode": "7645"
-        },
-        "profession":"Singer",
-        "mobileno":"0976567543"
-      }
-
+      "profession": "Singer",
+      "mobileno": "0976567543"
+    },
+    {
+      "id": 10,
+      "email": "justin@gmail.com",
+      "name": "Justin Beiber",
+      "profilePic": "https://i.pinimg.com/564x/02/a9/90/02a990e49e3cecbd638e3856be7f7030.jpg",
+      "address": {
+        "state": "Michigan",
+        "city": "Detroit",
+        "zipcode": "7645"
+      },
+      "profession": "Singer",
+      "mobileno": "0976567543"
+    }
   ]
 }

@@ -1,0 +1,10 @@
+table{
+    color: black !important;
+}
+.table-content{
+    background-color:thistle;
+}
+input{
+    width: 100%;
+    border-radius: 5px;
+}

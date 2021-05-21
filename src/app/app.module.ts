@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductsComponent } from './products/products.component';
 import { FooterComponent } from './footer/footer.component'; import { ProductDetailsComponent } from './product-details/product-details.component';
-
+import { FormsModule} from '@angular/forms'
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
@@ -20,6 +20,8 @@ import { TestuserstwoComponent } from './testuserstwo/testuserstwo.component';
 import { UserdetailsComponent } from './userdetails/userdetails.component';
 import { UserprofileComponent } from './userprofile/userprofile.component';
 import { UserprofiledetailsComponent } from './userprofiledetails/userprofiledetails.component';
+import { ViewfragranceComponent } from './viewfragrance/viewfragrance.component';
+import { AddnewfragranceComponent } from './addnewfragrance/addnewfragrance.component';
 
 @NgModule({
   declarations: [
@@ -40,12 +42,15 @@ import { UserprofiledetailsComponent } from './userprofiledetails/userprofiledet
     TestuserstwoComponent,
     UserdetailsComponent,
     UserprofileComponent,
-    UserprofiledetailsComponent
+    UserprofiledetailsComponent,
+    ViewfragranceComponent,
+    AddnewfragranceComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,8 +1,22 @@
-
-<!-- to display the cards -->
+<!-- 
+<!-- to display the cards  
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 mt-5 mb-5">
-    <!-- iterating using ngFor loop -->
+    <!--  iterating using ngFor loop 
 <div class="col" *ngFor="let fragObj of fragrances">
     <app-product-details [productObj]=fragObj (myEvent)="getProductDetailsFromChild($event)"></app-product-details>
 </div>
+</div> -->
+
+
+ <ul class="nav nav-tabs mt-3 justify-content-center">
+    <li class="nav-item">
+<a class="nav-link" routerLink="viewfragrance" routerLinkActive="active">View</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" routerLink="addnewfragrance" routerLinkActive="active">Add</a>
+            </li>
+
+</ul>
+<div>
+    <router-outlet></router-outlet>
 </div>
