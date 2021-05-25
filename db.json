@@ -41,12 +41,6 @@
       "description": " 500$",
       "id": 7,
       "productImage": "https://i.pinimg.com/564x/ca/8b/43/ca8b438ad5594dec1a1187ca9a7a9bf9.jpg"
-    },
-    {
-      "productTitle": "victoria",
-      "description": " 450$",
-      "productImage": "https://i.pinimg.com/564x/71/4c/29/714c2907d916843fac96a48980d5fc4b.jpg",
-      "id": 8
     }
   ],
   "users": [

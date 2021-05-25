@@ -2,6 +2,7 @@ import { FunctionCall } from '@angular/compiler';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AddnewfragranceComponent } from './addnewfragrance/addnewfragrance.component';
+import { AdminGuard } from './admin.guard';
 import { ContactusComponent } from './contactus/contactus.component';
 import { FragranceComponent } from './fragrance/fragrance.component';
 import { GlassesComponent } from './glasses/glasses.component';
@@ -44,7 +45,7 @@ const routes: Routes = [
    {path:'userprofile/:id',component:UserprofiledetailsComponent},
   //setting default page as HOME PAGE
   { path:'', redirectTo:'/home',pathMatch:'full'},
-  { path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) },
+  { path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule), canActivate:[AdminGuard] },
   {path:'**',component:PagenotfoundComponent},
 ];
 

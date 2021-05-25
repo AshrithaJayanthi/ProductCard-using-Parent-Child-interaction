@@ -1,5 +1,6 @@
 
 <div class="table-content">
+    <h2>{{today | date}}</h2>
     <form #ref="ngForm" (ngSubmit)="saveFragrance(ref.value)">
         <table class="table text-center text-dark">
             <thead>
@@ -13,7 +14,7 @@
                     <!-- product title -->
                     <td>
                         <span *ngIf="!editFragranceStatus || editFragranceIndex!==ind">
-                            {{frag.productTitle}}
+                            {{frag.productTitle | uppercase}}
                         </span>
 
                         <input type="text" name="productTitle"  [(ngModel)]="editFragranceObj.productTitle"
@@ -23,6 +24,7 @@
                     <!-- product description -->
                     <td>
                         <span *ngIf="!editFragranceStatus || editFragranceIndex!==ind">
+                            <!-- {{frag.description | currency : 'INR'}} -->
                             {{frag.description}}
                         </span>
 
@@ -38,10 +40,10 @@
                     <!-- edit  and delete -->
                     <td>
                         <span *ngIf="!editFragranceStatus || editFragranceIndex!==ind">
-                            <button class="btn btn-danger btn-sm p-1 m-1" (click)="editFragrance(frag,ind)"><i
+                            <button class="btn btn-danger btn-sm p-1 m-1" (click)="editFragrance(frag,ind)"  type="button"><i
                                     class="fas fa-edit text-warning"></i></button>
                             <button class="btn btn-warning btn-sm p-1 m-1"><i
-                                    class="fas fa-trash-alt text-danger" (click)="deleteFragrance(frag)"></i></button>
+                                    class="fas fa-trash-alt text-danger" (click)="deleteFragrance(frag)" type="button"></i></button>
                         </span>
 
                         <span   *ngIf="editFragranceStatus && editFragranceIndex==ind">

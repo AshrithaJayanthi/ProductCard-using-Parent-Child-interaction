@@ -22,6 +22,8 @@ import { UserprofileComponent } from './userprofile/userprofile.component';
 import { UserprofiledetailsComponent } from './userprofiledetails/userprofiledetails.component';
 import { ViewfragranceComponent } from './viewfragrance/viewfragrance.component';
 import { AddnewfragranceComponent } from './addnewfragrance/addnewfragrance.component';
+import { SquarePipe } from './square.pipe';
+import { SearchPipe } from './search.pipe';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,9 @@ import { AddnewfragranceComponent } from './addnewfragrance/addnewfragrance.comp
     UserprofileComponent,
     UserprofiledetailsComponent,
     ViewfragranceComponent,
-    AddnewfragranceComponent
+    AddnewfragranceComponent,
+    SquarePipe,
+    SearchPipe
   ],
   imports: [
     BrowserModule,

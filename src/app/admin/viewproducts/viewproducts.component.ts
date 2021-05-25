@@ -9,7 +9,7 @@ import { Fragrance } from 'src/app/models/addfragrance.model';
 })
 export class ViewproductsComponent implements OnInit {
 // fragrances:Fragrance[]=[];
-
+today:Date;
 fragrances:Fragrance[]=[];
 //to hold the index
 editFragranceIndex;
@@ -21,6 +21,10 @@ editFragranceStatus:boolean=false;
   constructor(private dsObj:DataService) { }
 
   ngOnInit(): void {
+    this.getUsers();
+    
+  }
+  getUsers(){
     this.dsObj.getFragranceData().subscribe(
       res=>{this.fragrances=res},
       err=>{console.log(err)}
@@ -48,6 +52,7 @@ deleteFragrance(frag)
 {
   this.dsObj.deleteFragrance(frag.id).subscribe(
     res=>{console.log(res)
+      this.getUsers();
     alert("frag deleted")
   },
   err=>{console.log(err)}
